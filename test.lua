@@ -57,13 +57,13 @@ vynixu.BorderColor3 = Color3.fromRGB(255, 255, 255)
 vynixu.Position = UDim2.new(0.0566037744, 0, 0.13348788, 0)
 vynixu.Size = UDim2.new(0, 187, 0, 22)
 vynixu.Font = Enum.Font.Cartoon
-vynixu.Text = "Add Cheese"
+vynixu.Text = "the beginning"
 vynixu.TextColor3 = Color3.fromRGB(255, 255, 255)
 vynixu.TextSize = 14.000
 vynixu.TextWrapped = true
 vynixu.MouseButton1Down:connect(function()
-game:service'ReplicatedStorage'.AddCheese:FireServer()
-end)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1.29999542, 2.5, -12.2999973, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+	end)
  
 ludicity.Name = "ludicity"
 ludicity.Parent = main
