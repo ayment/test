@@ -29,7 +29,7 @@ title.BorderSizePixel = 0
 title.Position = UDim2.new(-1.1920929e-07, 0, 0, 0)
 title.Size = UDim2.new(0, 212, 0, 22)
 title.Font = Enum.Font.Cartoon
-title.Text = "Cheese Escape"
+title.Text = "Teleport"
 title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.TextSize = 14.000
  
